@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Text</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #121212; /* Dark background for contrast */
+      font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+    }
+
+    .gradient-text {
+      font-size: 5rem;
+      font-weight: 700;
+      background: linear-gradient(45deg, #ff0060, #ff9090); /* Grey to neon green */
+      -webkit-background-clip: text; /* Clips the gradient to the text */
+      -webkit-text-fill-color: transparent; /* Makes the text transparent */
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-	<h1>Sink Website</h1>
-	<p>what up fr fr</p>
-	<img src="https://lyn.pink/img/thumbnail.webp" alt="Kitty Cat">
+  <h1 class="gradient-text">Project 2</h1>
+  <img src="https://lyn.pink/img/thumbnail.webp" alt="Kitty Cat">
 </body>
 </html>
