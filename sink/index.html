@@ -8,13 +8,12 @@
     body {
       margin: 0;
       height: 100vh;
-      display: flex;
+      --display: flex;
       justify-content: center;
       align-items: center;
       background-color: #121212; /* Dark background for contrast */
       font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
     }
-
     .gradient-text {
       font-size: 5rem;
       font-weight: 700;
@@ -23,10 +22,16 @@
       -webkit-text-fill-color: transparent; /* Makes the text transparent */
       text-align: center;
     }
+	.embed {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+	}
   </style>
 </head>
 <body>
-  <h1 class="gradient-text">Project 2</h1>
-  <img src="https://lyn.pink/img/thumbnail.webp" alt="Kitty Cat">
+  <h1 class="gradient-text">Project 4</h1>
+  <img class="embed" src="https://lyn.pink/img/thumbnail.webp" alt="Kitty Cat">
 </body>
 </html>
